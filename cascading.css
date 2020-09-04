@@ -1,0 +1,241 @@
+/* *<,> */
+/* body */
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #fff6f6;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+
+.comtainer{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1 2rem;
+}
+
+#main-nav{
+   background: #fff;
+    display: flex;
+}
+
+#main-nav .container, .five {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  #main-nav .container #logo {
+    height: 18px;
+    font-weight: bold;
+   }
+  
+  #main-nav .container i {
+    color: #777;
+    margin-right: 0.5rem;
+
+  
+  }
+  
+  #main-nav .container ul{
+    display: flex;
+  }
+  
+  #main-nav .container ul a , #logo{
+    padding: 1rem;
+    font-weight: bold;
+  }
+  
+  #main-nav .container ul a.active{
+    background: #c76f27;
+    color: #fff;
+  }
+  
+  #main-nav .container ul a:hover{
+    background: #e4e2e2;
+    padding: 0.45rem;
+    }
+
+  a:hover{
+    
+    padding: 2rem;
+
+
+}
+  .shop-now{
+    height: 100px;
+    width: 250px;
+  }
+
+  #shopNOW{
+    width: 450px;
+    height: 200px;
+    padding: 10px;
+    background: rgb(255, 254, 254);
+    color: black;
+    position: relative;
+  }
+  #p1{
+      font-weight: bold;
+      font-size:xx-large;
+  }
+  .shop-now #p2{
+    font: lighter;
+  }
+
+  .shop-nao{
+    border: 1px solid black;
+    display: inline;
+    padding: 0.5rem;
+   }
+
+   .shop-nao1{
+        display: inline;
+        border: 1px solid black;
+        box-shadow: 2px 3px #777;
+        padding: 0.5rem;
+   }
+/* 
+  #first-Picture{
+      height: 400px;
+      width: 600px;
+  } */
+  .shop-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+
+  .jumbo{
+      display: grid;
+    grid-column-start: 4;
+    grid-column-end: 2;
+    float: left;
+  }
+
+  
+  .section-container #first-Picture{
+    height: 600px;
+    width: 1000px;
+    grid-gap: 1rem;
+  }
+  
+  .section-container .shop-now{
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  #Men-Clothing{
+      padding: 1.5rem;
+  }
+
+  #women{
+      padding-top: 100px;
+      padding-bottom: 80px;
+      padding-left: 0.4rem ;
+  }
+  .men-section-container,
+  .women-section-container,
+  .all-section-container,
+  .story-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+#subscribe{
+    display: inline;
+    padding: 1rem;
+    color: #fff;
+    background: black;
+}
+
+#footer-note{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    background: white;
+    height: 50px;
+    padding: 1rem;
+}
+
+.footer-container a{
+    padding: 0.5rem;
+}
+
+.story-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+.read-more{
+    border: 1px solid black;
+    display: inline;
+    padding: 0.8rem;
+    font-weight: 900px;
+}
+
+.one, .two, .three, .four, .five{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+#subscibe{
+display: inline;
+}
+.five1{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-note{
+    padding: 2rem;
+}
+
+.pic-foot-note,.story{
+    font-weight: bold;
+}
+.story{
+    font-weight: bold;
+    font-size: larger;
+}
