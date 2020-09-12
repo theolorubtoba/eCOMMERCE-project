@@ -154,7 +154,6 @@ a.active{
     grid-column-end: 4;
 }
 
-
 .image1{
     position: relative;
 }
@@ -175,7 +174,18 @@ a.active{
     display: flex;
     flex-direction: row;
 }
+.marked-price{padding-left: 10px;}
+.price{
+    padding-left: 10px;
+    font-weight: bold;
+}
 
+
+#latest-style{
+    margin-top: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+}
 .view-more{
     font: 600px;
     padding: .5rem;
@@ -236,6 +246,12 @@ a.active{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+}
+
+.five11 #five1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 #subscibe{
