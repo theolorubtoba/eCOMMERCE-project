@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f8f0f0;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
@@ -26,6 +26,11 @@ li{
 img{
     width: 100%;
     padding: 0.4rem;
+}
+
+#logo{
+    font-family: 'Chiller';
+    padding-left: 90px;
 }
 
 .container{
@@ -58,6 +63,7 @@ img{
 #search-botton{
     background-color: #EC7D55;
     width: 80px;
+    padding: 0.5rem;
 }
 
 .font-awesome1{
@@ -78,7 +84,7 @@ img{
 .space{
     margin-right: 0.5rem;
     padding: 0.4rem;
-    border: 1px solid black;
+
 }
 
 .space:hover{
@@ -87,16 +93,23 @@ img{
 }
 
 a.active{
-    background: #c76f27;
-    color: #fff;
+    font-weight: bolder;
+    color: rgb(5, 5, 5);
   }
 
-  #curent-page-indicator{
+#curent-page-indicator{
       font: status-bar;
       background:  #fffbff;
       margin-top: -12px;
       padding-right: 15px;
       padding-left: 15px; 
+  }
+
+.display-stack{ padding-right: 50px ;}
+
+.main-section-container,.picture-stack,.picture-stack2,.last-section,.footer-container{
+      padding-right: 20px ;
+      padding-left: 20px ;
   }
 
 .main-layey1{
@@ -108,21 +121,23 @@ a.active{
 
 #view-all{
     height: 390px;
-    width: 240px;
+    width: 440px;
     margin: auto;
+    justify-items: center;
 }
 
 .title-big{
+    font-family: Arial;
     font-weight: bold;
-    font-size: 250%;
-    
+    font-size: 350%;
+    line-height: 80px;
 }
 
 .small{
     font-weight: lighter;
     font-size: 12px;
     color: rgb(100, 99, 99);
-    
+    padding-top: -550px;
 }
 
 
@@ -141,18 +156,26 @@ a.active{
 
 .picture-stack2{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr; 
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;   
 }
 
-#Shorts{
+.image001{
     grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-#Outer-Wear{
-    grid-column-start: 3;
     grid-column-end: 4;
 }
+
+.image002{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+#picture-slide{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .image1{
     position: relative;
@@ -161,19 +184,28 @@ a.active{
 .label{
     font-weight: bold;
     position: absolute;
-    z-index: 1;
     padding: 0.6rem;
     padding-right: 1rem;
     padding-left: 1rem;
     bottom: 20px;
     left: 145px;
     background-color: whitesmoke;
+    align-content: center;
 }
 
-#picture-slide{
-    display: flex;
-    flex-direction: row;
+.labela{
+    font-weight: bold;
+    position: relative;
+    align-content: center;
+    background-color: whitesmoke;
+    padding: 0.6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    bottom: 50px;
+    left: 150px;
+    display: inline;
 }
+
 .marked-price{padding-left: 10px;}
 .price{
     padding-left: 10px;
@@ -186,19 +218,26 @@ a.active{
     padding-left: 10px;
     font-weight: bold;
 }
+
 .view-more{
     font: 600px;
     padding: .5rem;
+    padding-left: 1rem;
     border: 1px solid #757575;
     margin-top: 40px;
     display: inline-block;
     position: relative;
     left: 600px;
+    margin-bottom: 100px;
+}
+
+.gray-color{
+    color: rgb(150, 149, 149); 
 }
 
 .footer-container{
     display: grid;
-    grid-template-columns: 1.7fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     background: #fff;
@@ -220,6 +259,7 @@ a.active{
     
     height: 50px;
     padding: 1rem;
+    
 }
 
 .footer-container a{
@@ -280,3 +320,7 @@ display: inline;
     font-size: larger;
 }
 
+.foot1{
+    margin-bottom: 80px;
+
+}
