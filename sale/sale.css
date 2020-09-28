@@ -62,14 +62,26 @@ img{
 }
 
 .search-form{
-    display: flex;
-    
+    display: flex;  
+}
+
+.fontuser{
+    position: relative;
+    color: rgb(230, 227, 227);
+}
+
+.display-this{
+    position: absolute;
+    right: 38.6rem;
+    top: .7rem;
+    color: rgb(230, 227, 227);
 }
 
 .search-space{
     padding: 0.6rem; 
     margin: 0.3rem;
     width: 40rem;
+    border: 0.0009px solid rgb(230, 227, 227);
 }
 button {  
     background-color: #EC7D55;  
@@ -92,7 +104,6 @@ button {
     display: grid;
     grid-template-columns: 1.1fr 8fr;
 }
-
 .empty-space-left-alignment{
     width: 100%;
 }
@@ -133,17 +144,12 @@ a.active{
     font-weight: bolder;
     color: rgb(5, 5, 5);
   }
-
-#curent-page-indicator{
-      font: status-bar;
-      background:  #fffbff;
-      margin-top: -12px;
-      padding-right: 15px;
-      padding-left: 15px; 
-  }
+.bold-appearance{
+    font-weight: bold;
+}
 .header-layer1{
     display: grid;
-    grid-template-columns: 1.5fr 8fr;
+    grid-template-columns: 1.33fr 8fr;
 }
 
 .titu{
@@ -155,7 +161,7 @@ a.active{
 
 .header-layer2{
     display: grid;
-    grid-template-columns: 1.9fr 8fr 2fr;
+    grid-template-columns: 1.65fr 8fr 2fr;
 }
 
 .hide_filter-group{
@@ -223,9 +229,30 @@ a.active{
     padding: 0.9rem;
 }
 
+.reduction-percentage{
+    position: absolute;
+    bottom: 35rem;
+    left: .5rem;
+    padding: .4rem;
+    background-color: rgb(212, 211, 211);
+}
+
 .price{
+    display: flex;
+    flex-direction: row;
     font-weight: bold;
 }
+
+.old-price{
+    color: rgb(163, 163, 163);
+    text-decoration: line-through;
+    margin-right: .9rem;
+}
+
+.new-price,.reduction-percentage{
+    color: rgb(255, 0, 0);
+}
+
 .botton-view{
     display: inline;
     padding: .7rem;
