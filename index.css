@@ -3,10 +3,9 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #fff6f6;
-    display: flex;
-    flex-direction: column;
-    display: block;
+    background-color: #ffffff;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
     
 }
 *{
@@ -46,9 +45,9 @@ img{
     padding: 1rem;
   }
 
-  #main-nav .container #logo {
-    height: 18px;
-    font-weight: bold;
+  #main-nav .container {
+      height: 18px;
+    	font-family: 'Segoe UI';
    }
   
   #main-nav .container i {
@@ -57,32 +56,29 @@ img{
 
   
   }
+  #main-nav{
+    border-bottom: .005rem solid rgb(248, 248, 248);
+    margin-bottom: .9rem;
+    padding: 1rem;
+  }
+  #logo{
+    font-family: 'Chiller', 'Regular';
+    height: 18px;
+  }
   
   #main-nav .container ul{
     display: flex;
   }
   
   #main-nav .container ul a , #logo{
-    padding: 1rem;
-    font-weight: bold;
+    padding: 1.5rem;
   }
   
   #main-nav .container ul a.active{
-    background: #c76f27;
     color: #fff;
   }
   
-  #main-nav .container ul a:hover{
-    background: #e4e2e2;
-    padding: 0.45rem;
-    }
 
-  a:hover{
-    
-    padding: 2rem;
-
-
-}
   .shop-now{
     height: 100px;
     width: 250px;
@@ -116,11 +112,21 @@ img{
         box-shadow: 2px 3px #777;
         padding: 0.5rem;
    }
-/* 
-  #first-Picture{
-      height: 400px;
-      width: 600px;
-  } */
+
+   .p4{
+     
+     color: rgb(141, 138, 138);
+     justify-content: center;
+   }
+
+   .h1{
+        font-family: 'Segoe UI', sans-serif;
+        font-weight: bold;
+   }
+
+   #women{
+     
+   }
   .shop-container{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -154,10 +160,25 @@ img{
   }
 
   #women{
-      padding-top: 100px;
-      padding-bottom: 80px;
+      padding-top: 2rem;
+      padding-bottom: 4.6rem;
       padding-left: 0.4rem ;
+      justify-content: center;
+      margin: auto;
   }
+#third-Picture{
+  padding-bottom: 2.4rem ;
+}
+
+.men-section-container, .women-section-container{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+  .red{
+    color: red;
+  }
+
+
   .men-section-container,
   .women-section-container,
   .all-section-container,

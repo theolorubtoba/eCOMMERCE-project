@@ -216,6 +216,11 @@ a.active{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.label-container{
+    padding-right: 0.6rem;
+    left: .3rem;
+}
+
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9{
     position: relative;
 }
@@ -225,7 +230,6 @@ a.active{
     z-index: 1;
     top: 29rem;
     left: 22rem;
-    
     padding: 0.9rem;
 }
 
@@ -267,10 +271,7 @@ a.active{
     padding-top: 5rem;
     padding-bottom: 3rem;
     text-align: center;
-
 }
-
-
 
 .footer-container{
     display: grid;
