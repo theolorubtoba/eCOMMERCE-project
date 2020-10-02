@@ -1,0 +1,129 @@
+body{
+    margin: 0;  
+    padding: 0;  
+    background-color:rgb(224, 222, 222);  
+    font-family: 'Segoe UI';  
+} 
+.sign-up{
+    padding: 5rem;
+}
+.sign{
+    margin-bottom: 1rem;
+}
+.sign-in{
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 25rem;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    position: relative
+    ;
+}
+
+.remove{
+    position: absolute;
+    color: black;
+    font-size: medium;
+    left: 34.6rem;
+    bottom: 25rem;
+}
+
+.form-container{
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+.not-have-account{
+    padding-top: .5rem;
+    padding-left: 12rem;
+    height: 4rem;
+    width: 24rem;
+    background-color: rgb(253, 253, 253);
+}
+
+#log{
+    display: block;
+    padding: .5rem;
+    color: whitesmoke;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+#e-mail, #pass-word {
+    display: block;
+   
+    padding: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 14rem;
+    border-style: none;
+}
+.space{
+    margin-bottom: .4rem;
+}
+.mini-view{
+    font-size: small;
+    
+}
+.same-line{
+    display: inline;
+    padding: 0.5rem;
+    color: black;
+
+}
+
+.distant{
+    padding-left: 3rem;
+    color: rgb(141, 140, 140);
+}
+
+.color{
+    color: rgb(141, 140, 140);
+}
+.centre{
+    text-align: center;
+    font-size: small;
+    color: rgb(155, 154, 154);
+}
+
+#logg a, #logged a{
+    padding: .5rem;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#logg a{
+    margin-bottom: .6rem;
+}
+
+#logged{
+    position: relative;
+}
+
+.link{
+    text-align: center;
+}
+
+.stay-on-top{
+    position: absolute;
+    padding: 1rem;
+    top: 21rem;
+    color: white;
+}
+
+.bold-link{
+    font-weight: bold;
+    font-size: .9rem;
+}
+.centre1{
+    justify-content: center;
+}
