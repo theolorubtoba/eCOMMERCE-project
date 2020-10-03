@@ -66,6 +66,15 @@ li{
     padding-right: 14rem;
     border-style: none;
 }
+.pass-word{
+    display: block;
+    margin-top: .5rem;
+    padding: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 15.75rem;
+    margin-bottom: .9rem;
+}
+
 .space{
     margin-bottom: .4rem;
 }
