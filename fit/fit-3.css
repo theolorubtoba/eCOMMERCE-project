@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*utility style*/
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;    
+    background-color: gray;
+}
+li{
+    list-style-type: none;
+}
+#body-1{
+   
+    background-color: white;
+    margin: 1rem 25rem 0rem 20rem;
+    
+    font-size: small;
+    
+    padding: 2rem 2rem;
+}
+h1, h2{
+    font-size: 1rem;
+}
+/*fit assistant*/
+
+#body-1{
+    display: grid;
+    grid-template-columns: 10rem 30rem;
+}
+#fit{
+    margin-bottom: 1rem;
+}
+#size{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+}
+#size span{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-weight: bolder;
+    font-size: large;
+}
+#recommendation{
+    text-align: center;
+    font-size: small;
+    color: rgb(199, 198, 198);
+    margin-right: 3rem;
+}
+#measure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border: 1px outset rgb(226, 225, 225);
+    margin-right: 8rem;
+    padding: 2rem 1rem 2rem 4rem;
+    margin-bottom: 2rem;
+}
+#measure li{
+    margin-bottom: 1rem;
+}
+#model{
+    position: absolute;
+    top: 32rem;
+    right: 41rem;
+    color: rgb(199, 198, 198);
+}
+#continue{
+    margin-left: 15rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 0.5rem;
+    margin-right: 5rem;
+}

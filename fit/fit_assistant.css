@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*utility style*/
+body{
+    background-color: white;
+   
+}
+#body{ 
+    background-color: white;
+    margin: 3rem 25rem;
+    border: 1px solid rgb(200, 200, 200);
+    text-align: center;
+    padding: 3rem 0 1rem 0 ;
+}
+#to{
+    margin-top: 1.5rem;
+}
+#fit{
+    margin-top: 1.5rem;
+}
+#are{
+    margin-top: 2rem;
+    color: rgb(196, 196, 196);
+}
+a{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}

@@ -77,32 +77,30 @@ li{
     font-size: small;
 }
 
-#logg, #logged{
-    padding: 0.5rem;
-    padding-right: 7.35rem;
-    padding-left: 7.35rem;
+#logg a, #logged a{
+    padding: .5rem;
     display: block;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
-    
 }
 
-#logg{
-    margin-bottom: .5rem;
-    padding-right: 10.48rem;
-    padding-left: 10.48rem;
-    
+#logg a{
+    margin-bottom: .6rem;
 }
 
 #logged{
     position: relative;
 }
 
+.link{
+    text-align: center;
+}
+
 .stay-on-top{
     position: absolute;
     padding: 1rem;
-    background-color: cornflowerblue;
-    bottom: .2rem;
+    top: 24.33rem;
+    color: white;
 }
 
 .bold-link{

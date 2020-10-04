@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*utiliy style*/
+#body{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-right: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+h1,h2,h3,h4,h5{
+    font-size: small;
+}
+/*header*/
+header{
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+#icon{
+    list-style: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 3rem;
+}
+/*delivery address*/
+#checkout{
+    display: flex;
+    flex-flow: column;
+}
+
+
+.container{
+    margin-top: 2rem;
+}
+#body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.container{
+    border: 1px solid rgb(194, 192, 192);
+    margin-bottom: 2rem;
+    margin-right: 15rem;
+}
+#delivery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0rem 1rem 1rem;
+}
+#street{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 30rem;
+}
+#delivery div{
+    margin-bottom: 1rem;
+
+}
+#street input{
+    width: 31rem;
+}
+.container h1{
+    padding: 1rem 1rem 0.1rem 1rem;
+    border-bottom: 1px solid rgb(158, 157, 157);
+}
+#delivery input{
+    height: 1.5rem;
+}
+.info input{
+    width: 15rem;
+}
+input::placeholder{
+    padding: 0.5rem;
+}
+#num{
+    font-size: x-small;
+}
+#save{
+   position: relative;
+   top: 0rem;
+   left: 21rem;
+   background-color: black;
+   color: white;
+   padding: 0.5rem 0.5rem 0.5rem 1rem;
+   font-size: small;
+   margin-right: 9rem;
+   text-decoration: none;
+   margin-left: -2rem;
+}
+
+/*delivery option*/
+#doption{
+    border: 1px solid rgb(194, 192, 192);
+    margin-bottom: 3rem;
+    margin-right: 15rem;
+}
+#doption h2{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding: 0.3rem 1rem 0.1rem 1rem;
+}
+#options{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 0.5rem;
+}
+.door{
+    margin-bottom: 1rem;
+}
+.pick p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bold, .five{
+    font-weight: bold;
+}
+.color{
+    color: rgb(182, 179, 179);
+}
+/*payment*/
+#payment{
+    border: 1px solid rgb(194, 192, 192);
+    margin-bottom: 1rem;
+    margin-right: 15rem;
+    
+}
+ol{
+    list-style-type: none;
+}
+#payment h1{
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding: 1rem 1rem 0.2rem 1rem;
+}
+#payment h1 span{
+    margin-left: 20rem;
+}
+#how{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+ol li{
+    margin-top: 1rem;
+}
+.pay{
+    padding-left: 2rem;
+    color: rgb(158, 157, 157);
+}
+#i3{
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.one{
+    margin-left: 20rem;
+}
+.two{
+    margin-left: 16.1rem;
+
+}
+.three{
+    margin-left: 21.5rem;
+}
+.sub, .total{
+    margin-bottom: 0.5rem;
+}
+#sub{
+    border-bottom: 1px solid rgb(194, 192, 192);
+    padding-bottom: 0.5rem;
+}
+/*place order*/
+#place{
+    margin-top: 1rem;
+    border: 1px solid rgb(194, 192, 192);
+    margin-right: 15rem;
+    text-align: center;
+    padding: 1rem ;
+    margin-bottom: 2rem;
+}
+#order{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 11rem;
+    margin-bottom: 3rem;
+}
+#by{
+    margin-top: 1rem;
+}
+/*Order summary*/
+#cart{
+    border: 1px solid rgb(194, 192, 192);
+    margin-top: 2rem;
+}
+#in{
+    padding: 1rem 1rem 0.2rem 1rem ;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    margin-bottom: 1rem;
+}
+#your{
+    padding-left: 1rem;
+}
+#n1{
+    margin-left: 11rem;
+
+}
+#n2{
+    margin-left: 7.2rem;
+}
+#n3{
+    margin-left: 12.4rem;
+}
+.total{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+.total div{
+    margin-bottom: 0.1rem;
+}
+#details{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 2rem;
+}
+#details div{
+    margin-bottom: 0.5rem;
+}
+.grey{
+    color: rgb(182, 179, 179);
+}
+#mod{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bold;
+}
