@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*utiliy style*/
+body{
+    font-size: small;
+    
+    background-color: gray;
+    
+}
+li{
+    list-style-type: none;
+}
+#body-1{
+   
+    background-color: white;
+    margin: 1rem 25rem 0rem 20rem;
+    
+    font-size: small;
+    
+    padding: 2rem 2rem;
+}
+h1, h2{
+    font-size: 1rem;
+}
+#body-2{
+    margin-left: 2rem;
+}
+#body-2 p {
+    margin-left: 6rem;
+     
+    margin-bottom: 1rem;
+    
+    
+}
+#body-2 a{
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    margin-bottom: 1rem;
+    
+}
+/*measure*/
+#body-1{
+    display: grid;
+    grid-template-columns: 10rem 23rem;
+    grid-gap: 1rem;
+    color: rgb(204, 201, 201);
+}
+h1, h2{
+    color: black;
+}
+ul{
+    font-size: xx-small;
+}
+h2{
+    margin-bottom: 1rem;
+}
+.measure{
+    padding-left: 8rem;
+    border-bottom: 1px dotted rgb(168, 166, 166);
+}
+
+#body{
+    margin-top: 3rem;
+}
+#m{
+    position: absolute;
+    top: 10.5rem;
+    right: 30rem;
+}
+#g{
+    position: absolute;
+    top: 14rem;
+    right: 29.5rem;
+}
+#cm{
+    background-color: black;
+    color: white;
+    padding: 0.1rem;
+}
+#ft{
+    background-color: rgb(228, 224, 224);
+    color: black;
+    padding: 0.1rem 0.2rem;
+}
+#kg{
+    background-color: black;
+    color: white;
+    padding: 0.1rem ;
+}
+#lbs{
+    background-color: rgb(228, 224, 224);
+    color: black;
+    padding: 0.1rem 0.2rem;
+}
+#weight{
+    margin-top: 3rem;
+}
+#height{
+    margin-top: 2rem;
+}
+#body{
+    color: black;
+}
+.skills{
+    width: 250px;
+    margin: 60px auto;
+}
+.skills li{
+    margin: 15px 0;
+}
+.bar{
+    background-color: red;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background-color: #2187e7;
+
+}
+#progress{
+    background-color: black;
+    width: 15rem;
+    height: 3px;
+    margin-top: 2rem;
+   margin-bottom: 1rem;
+}
+    
+#bar{
+    background-color: brown;
+    width: 0.5rem;
+    height: 10px;
+    margin-left: 50%;
+}
+#type{
+    margin-top: 2rem;
+}
+#how{
+    margin-top: 1rem;
+    color: black;
+}
+#fit{
+    margin-left: 3rem;
+}
+.average{
+    margin-left: 4rem;
+}
+#Big{
+    margin-left: 4rem;
+}
+.slim, .average, #Big{
+    color: black;
+}
+.perfect{
+    margin-left: 3rem;
+}
+#loose{
+    margin-left: 14rem;
+    position: absolute;
+    top: 32.5rem;
+    right: 32rem;
+}
+.tight, .perfect, #loose{
+    color: black;
+}
+
+#one{
+    color: black;
+    font-size: medium;
+    font-weight: 900;
+    position: absolute;
+    top: 10rem;
+    left: 42rem;
+}
+#six{
+    color: black;
+    font-size: medium;
+    font-weight: 900;
+    position: absolute;
+    top: 14rem;
+    left: 42rem;
+}
+#continue{
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 36rem;
+    right: 29rem;
+}

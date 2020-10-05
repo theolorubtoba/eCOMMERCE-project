@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*utiliy style*/
+body{
+    font-size: small;
+    
+    background-color: gray;
+    
+}
+li{
+    list-style-type: none;
+}
+#body-1{
+   
+    background-color: white;
+    margin: 1rem 25rem 0rem 20rem;
+    
+    font-size: small;
+    
+    padding: 2rem 2rem;
+}
+h1, h2{
+    font-size: 1rem;
+}
+/*page33 */
+/*utiliy*/
+#main{
+   
+    background-color: white;
+    margin: 1rem 25rem 0rem 20rem;
+    
+    font-size: small;
+    
+    padding: 2rem 2rem;
+}
+#main{
+    display: grid;
+    grid-template-columns: 12rem 25rem;
+}
+#back{
+    margin-top: 20rem;
+}
+#continue{
+    position: absolute;
+    top: 35rem;
+    right: 30rem;
+    background-color: black;
+    padding: 0.5rem;
+    color: white;
+}
+#f{
+    margin-bottom: 2rem;
+}
+#scan{
+    margin-bottom: 2rem;
+}
+#show-1{
+    display: grid;
+    grid-template-columns: 18rem 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-right: 3rem;
+    color: rgb(204, 201, 201);
+    background-color: rgba(167,152,133,1);
+    margin-bottom: 1rem;
+    padding: 0rem 5rem;
+} 
+
+
+#front{
+    color: rgb(204, 201, 201);
+}
+#direct{
+    position: absolute;
+    top: 32.5rem;
+    right: 30rem;
+    color: #0b80ee;
+}

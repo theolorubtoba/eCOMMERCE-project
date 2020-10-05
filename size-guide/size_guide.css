@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*utiliy style*/
+body{
+    font-size: small;
+    
+    background-color: gray;
+    
+}
+#body-1{
+   
+    background-color: white;
+    
+    margin: 1rem 20rem 0rem 20rem;
+    font-size: small;
+    
+    padding: 4rem 6rem;
+}
+#body-2{
+    margin-left: 2rem;
+}
+#body-2 p {
+    margin-left: 6rem;
+     
+    margin-bottom: 1rem;
+    
+    
+}
+#body-2 a{
+    margin-left: 2rem;
+    color: white;
+    background-color: black;
+    margin-bottom: 1rem;
+    
+}
+/*size-guide*/
+h1{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+td{
+    color: rgb(189, 189, 189);
+}
+#men{
+    margin-top: 3rem;
+}
+#sizes{
+    margin-bottom: 2rem;
+}
+td, th{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+th{
+    padding-right: 0.5rem;
+}
+.measurement{
+    position: absolute;
+    top: 6rem;
+    right: 29rem ;
+}
+#measure{
+    position: absolute;
+    top: 0rem;
+    right: -5rem;
+}
+#cm{
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+}
+#in{
+    color: black;
+    background-color: rgb(253, 252, 252);
+    padding: 0.5rem;
+}
+#sizes,#chart{
+    border: 1px solid rgb(253, 252, 252);
+   
+}
+#sizes td{
+    padding-left: 0.5rem;
+    padding-bottom: 0.7rem;
+}
